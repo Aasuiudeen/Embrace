@@ -116,9 +116,12 @@ img:not(.logo){
     transform: rotate(90deg);
 }
 .nav-links{
-    height: 0;
-    margin: 0;
+    height:0;
+    margin:0;
     overflow: hidden;
+}
+.show-links{
+    height:192px;
 }
 .nav-links a{
     font-family: var(--font-family);
@@ -598,6 +601,8 @@ img:not(.logo){
     background-color: var(--white);
     margin: 0 auto;
     display: block;
+    z-index: 3;
+    position: relative;
 }
 .elevate-center p{
     text-align: center;
@@ -614,6 +619,7 @@ img:not(.logo){
     color:var(--primary);
     letter-spacing: 0.5px;
     padding: 0 8px;
+    z-index: 5;
 }
 .shape-1{
     position: absolute;
@@ -648,7 +654,7 @@ img:not(.logo){
     border-radius: 463.693px;
     background: linear-gradient(177deg, #3461FF 10.7%, #8399E9 103.87%);
     transform: rotate(90deg);
-    z-index: 0;
+    z-index: 2;
 }
 @media screen and (min-width: 992px){
     .main-elevate{
