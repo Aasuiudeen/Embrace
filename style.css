@@ -1061,7 +1061,7 @@ img:not(.logo){
 /* End of FAQ section styling */
 /* Footer section styling */
 .main-footer{
-    padding: 60px 0;
+    padding-bottom: 60px;
 }
 .footer-center{
     display: grid;
@@ -1073,6 +1073,7 @@ img:not(.logo){
     grid-template-columns: repeat(2, 1fr);
 }
 .footer-left{
+    
     margin-bottom: 32px;
 }
 .footer-left-1{
@@ -1087,13 +1088,13 @@ img:not(.logo){
     font-size: 12px;
     font-weight: 400;
     display: block;
-    margin-top: 16px;
     margin-bottom: 16px;
 }
 .footer-btn a{
     color: white;
     font-size: 12px;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
 }
 .fa-brands{
     font-size: 18px;
