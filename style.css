@@ -121,7 +121,7 @@ img:not(.logo){
     overflow: hidden;
 }
 .show-links{
-    height:202px;
+    height:212px;
 }
 .nav-links a{
     font-family: var(--font-family);
