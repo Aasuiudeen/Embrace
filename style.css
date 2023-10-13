@@ -1063,15 +1063,28 @@ img:not(.logo){
 .main-footer{
     padding: 60px 0;
 }
+.footer-center{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap:32px
+}
+.footer-right{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
 .footer-left{
     margin-bottom: 32px;
+}
+.footer-left-1{
+    padding: 0;
 }
 .footer-left img{
     width: 100px;
     height: 100%;
+    margin: 0;
 }
 .footer-right a{
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     display: block;
     margin-top: 16px;
@@ -1085,8 +1098,7 @@ img:not(.logo){
 .fa-brands{
     font-size: 18px;
     color: var(--primary);
-    margin: 24px 0;
-    margin-right: 48px;
+    margin: 16px 16px 16px 0;
     transition: var(--transition);
 }
 .fa-brands:hover{
@@ -1106,6 +1118,9 @@ img:not(.logo){
     .footer-right{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+    }
+    .fa-brands{
+        margin: 24px 24px 24px 0;
     }
 }
 /* End of footer section styling */
